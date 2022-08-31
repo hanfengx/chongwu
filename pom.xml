@@ -21,6 +21,17 @@
         <version>2.1.4.RELEASE</version>
     </parent>
     <dependencies>
+        <!--apimodelproperty注解-->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>2.7.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+            <version>2.7.0</version>
+        </dependency>
         <!--lombok @data-->
         <dependency>
                 <groupId>org.projectlombok</groupId>
