@@ -11,4 +11,8 @@ public interface LoginMapper {
                               @Param("userAccount") String userAccount,
                               @Param("passWord") String passWord);
 
+
+    public Integer login(@Param("userName") String userName,
+                         @Param("passWord") String passWord);
+
 }

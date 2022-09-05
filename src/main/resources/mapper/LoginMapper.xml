@@ -20,4 +20,7 @@
             <if test="userName!=null">1</if>
         </trim>
     </insert>
+    <select id="login" resultType="java.lang.Integer">
+        select count(user_name) from user where user_name = #{userName} and user_pwd = #{passWord}
+    </select>
 </mapper>

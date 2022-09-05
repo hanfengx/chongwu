@@ -21,6 +21,12 @@
         <version>2.1.4.RELEASE</version>
     </parent>
     <dependencies>
+        <!--验证码-->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.10</version>
+        </dependency>
         <!--apimodelproperty注解-->
         <dependency>
             <groupId>io.springfox</groupId>
