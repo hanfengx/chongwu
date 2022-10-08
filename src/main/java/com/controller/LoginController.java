@@ -75,7 +75,6 @@ public class LoginController {
                    HttpServletRequest request){
         String sessionVerifyCode = request.getSession().getAttribute("VerifyCode").toString();
         //先判断验证码是否正确
-        System.out.println(sessionVerifyCode);
         if (verifyCode.toUpperCase().equals(sessionVerifyCode)){
             return loginService.login(userName, passWord);
         }else {
